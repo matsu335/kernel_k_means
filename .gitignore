@@ -1,0 +1,27 @@
+# 仮想環境ディレクトリ
+k_env/
+
+# Pythonキャッシュファイル
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Jupyter Notebookのチェックポイント
+.ipynb_checkpoints/
+
+# 結果保存ディレクトリ（必要に応じて）
+results/*
+
+# ログファイル、出力ファイルなど（任意で追加）
+*.log
+*.out
+
+# 環境設定ファイル（ユーザー固有）
+*.env
+.env
+
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
