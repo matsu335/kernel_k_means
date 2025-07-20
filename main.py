@@ -22,7 +22,7 @@ def main():
         n_clusters=number_of_clusters,
         max_iter=100,
         kernel_type=kernel_type,
-        kernel_params = {'gamma': 0.01} if kernel_type == 'rbf' else {'coef0': 1.0, 'degree': 3},
+        kernel_params = {'gamma': 0.01} if kernel_type == 'rbf' else {'coef0': 10.0, 'degree': 5},
     )
     model.fit(X_scaled)
 

@@ -3,7 +3,7 @@ kernel_k_means/
 ├── k_env/                       ← 仮想環境
 ├── others/
 │   ├── earthquakes_3d_plot.py   ← 地震データ可視化(使わない)
-│   └── japan_map.png         ← 緯度・経度を反映した日本地図
+│   └── japan_map.png            ← 緯度・経度を反映した日本地図
 ├── results/                     ← 結果保存用
 ├── src/
 │   ├── fetch_data.py            ← 地震データ取得スクリプト
@@ -15,7 +15,7 @@ kernel_k_means/
 └── README.md
 
 ・実行方法
-1. 仮想環境に入る（もしくはrequirements.txt内のライブラリをインストール）
+1. kernel_k_meansディレクトリで「pip install -r requirements.txt」を実行し、requirements.txt内のライブラリをインストール
 2. kernel_k_meansディレクトリで「python main.py」を実行
 3. results内に結果のpngが保存される
 
